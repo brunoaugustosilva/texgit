@@ -135,8 +135,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill Percentual a ser preenchido
+	 * @param length Tamanho a ser preenchido
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(float, int)
 	 */

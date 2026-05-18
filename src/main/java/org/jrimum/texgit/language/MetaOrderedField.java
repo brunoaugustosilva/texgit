@@ -62,6 +62,7 @@ public class MetaOrderedField extends MetaField {
 	/**
 	 * Gets the value of the position property.
 	 * 
+	 * @return Posição
 	 */
 	public int getPosition() {
 		return position;
@@ -70,6 +71,7 @@ public class MetaOrderedField extends MetaField {
 	/**
 	 * Sets the value of the position property.
 	 * 
+	 * @param value Posição do campo
 	 */
 	public void setPosition(int value) {
 		this.position = value;

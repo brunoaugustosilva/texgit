@@ -197,6 +197,7 @@ public class MetaField {
 	/**
 	 * Gets the value of the length property.
 	 * 
+	 * @return Tamanho do campo
 	 */
 	public int getLength() {
 		return length;
@@ -205,6 +206,7 @@ public class MetaField {
 	/**
 	 * Sets the value of the length property.
 	 * 
+	 * @param value Tamanho do campo
 	 */
 	public void setLength(int value) {
 		this.length = value;

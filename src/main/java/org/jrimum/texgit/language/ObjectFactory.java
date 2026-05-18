@@ -68,6 +68,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaField }
 	 * 
+	 * @return Objeto do campo
 	 */
 	public MetaField createMetaField() {
 		return new MetaField();
@@ -76,6 +77,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaFlatFile }
 	 * 
+	 * @return Objeto de MetaFlatFile
 	 */
 	public MetaFlatFile createMetaFlatFile() {
 		return new MetaFlatFile();
@@ -84,6 +86,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaOrderedField }
 	 * 
+	 * @return objeto MetaOrderedField
 	 */
 	public MetaOrderedField createMetaOrderedField() {
 		return new MetaOrderedField();
@@ -92,6 +95,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaRecord }
 	 * 
+	 * @return Objeto de MetaRecord
 	 */
 	public MetaRecord createMetaRecord() {
 		return new MetaRecord();
@@ -100,6 +104,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaLayout }
 	 * 
+	 * @return Objeto de MetaLayout
 	 */
 	public MetaLayout createMetaLayout() {
 		return new MetaLayout();
@@ -108,6 +113,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaTexgit }
 	 * 
+	 * @return Objeto de MetaTexgits
 	 */
 	public MetaTexgit createMetaTexgit() {
 		return new MetaTexgit();
@@ -116,6 +122,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaFormatter }
 	 * 
+	 * @return Objeto de MetaFormatter
 	 */
 	public MetaFormatter createMetaFormatter() {
 		return new MetaFormatter();
@@ -124,6 +131,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaGroupFields }
 	 * 
+	 * @return Objeto de MetaGroupFields
 	 */
 	public MetaGroupFields createMetaGroupFields() {
 		return new MetaGroupFields();
@@ -132,6 +140,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaGroupRecords }
 	 * 
+	 * @return Objeto de MetaGroupRecords
 	 */
 	public MetaGroupRecords createMetaGroupRecords() {
 		return new MetaGroupRecords();
@@ -140,6 +149,7 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link MetaFiller }
 	 * 
+	 * @return Objeto de MetaFiller
 	 */
 	public MetaFiller createMetaFiller() {
 		return new MetaFiller();
@@ -148,6 +158,8 @@ public class ObjectFactory {
 	/**
 	 * Create an instance of {@link JAXBElement }{@code <}{@link MetaTexgit }{@code >}}
 	 * 
+	 * @param value Objeto do MetaTexgit
+	 * @return JAXBElement
 	 */
 	@XmlElementDecl(namespace = "http://jrimum.org/texgit", name = "Texgit")
 	public JAXBElement<MetaTexgit> createTexgit(MetaTexgit value) {

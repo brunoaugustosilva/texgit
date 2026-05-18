@@ -33,7 +33,7 @@ import java.util.Collection;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  * 
- * @param <G>
+ * @param <G> Classe Genérica de Record
  */
 public interface FlatFile<G extends Record> extends TextListStream {
 

@@ -33,7 +33,7 @@ import org.jrimum.texgit.Record;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Classe genérica de Record
  */
 public interface RecordFactory <G extends Record>{
 

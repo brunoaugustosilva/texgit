@@ -107,7 +107,7 @@ public class MetaGroupFields {
 	 * Objects of the following type(s) are allowed in the list
 	 * {@link MetaField }
 	 * 
-	 * 
+	 * @return Lista de campos
 	 */
 	public List<MetaField> getFields() {
 		if (fields == null) {

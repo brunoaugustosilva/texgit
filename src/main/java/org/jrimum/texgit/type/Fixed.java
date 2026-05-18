@@ -35,7 +35,7 @@ package org.jrimum.texgit.type;
 public interface Fixed {
 
 	/**
-	 * Informa a validade para a fixação de uma ou mais medidas. Exemplo: <br />
+	 * Informa a validade para a fixação de uma ou mais medidas. Exemplo: <br>
 	 * 
 	 * <pre>
 	 * {

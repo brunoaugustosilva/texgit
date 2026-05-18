@@ -29,10 +29,10 @@
 package org.jrimum.texgit.type.component;
 
 import static java.lang.String.format;
-import static org.apache.commons.lang.StringUtils.EMPTY;
+import static org.apache.commons.lang3.StringUtils.EMPTY;
 import static org.jrimum.utilix.Objects.isNotNull;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.jrimum.texgit.TextStream;
 import org.jrimum.utilix.Objects;
 
@@ -47,14 +47,15 @@ import org.jrimum.utilix.Objects;
  * É utilizado o método <code>toString()</code> do objeto preenchedor.
  * </p>
  * <p>
- * Exemplo:<br/>
+ * Exemplo:<br>
+ * </p>
  * <pre>
- * Filler<Integer> filler = new Filler(new Integer(10), SideToFill.LEFT);
+ * Filler&lt;Integer&gt; filler = new Filler(new Integer(10), SideToFill.LEFT);
  * String outPut = filler.fill("TESTE", 8);
  * 
- * outPut -> "101TESTE"
+ * outPut -&gt; "101TESTE"
  * </pre>
- * </p> 
+ * 
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L</a>
  * @author <a href="mailto:misaelbarreto@gmail.com">Misael Barreto</a>
  * @author <a href="mailto:romulomail@gmail.com">Rômulo Augusto</a>

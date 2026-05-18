@@ -53,7 +53,7 @@ import javax.xml.bind.annotation.XmlEnum;
  * <p>
  * The following schema fragment specifies the expected content contained within
  * this class.
- * <p>
+ * </p>
  * 
  * <pre>
  * &lt;simpleType name=&quot;enumFormatsTypes&quot;&gt;

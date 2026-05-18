@@ -41,8 +41,8 @@ import javax.xml.bind.annotation.XmlEnum;
  * 
  * 
  * <p>
- * Tipos usados para obten��o dos campos de texto para java. No caso representa
- * os tipos java poss�veis para um campo.
+ * Tipos usados para obtenção dos campos de texto para java. No caso representa
+ * os tipos java possíveis para um campo.
  * </p>
  * 
  * 
@@ -53,7 +53,7 @@ import javax.xml.bind.annotation.XmlEnum;
  * <p>
  * The following schema fragment specifies the expected content contained within
  * this class.
- * <p>
+ * </p>
  * 
  * <pre>
  * &lt;simpleType name=&quot;enumTypes&quot;&gt;

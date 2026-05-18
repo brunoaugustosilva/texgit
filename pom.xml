@@ -5,7 +5,7 @@
 	<groupId>org.jrimum</groupId>
 	<artifactId>jrimum-texgit</artifactId>
 	<name>Projeto Texgit</name>
-	<version>0.2.4</version>
+	<version>0.2.5</version>
 	<description>Projeto open source de componentes de software para o domínio de negócios do Brasil.</description>
 	<url>http://www.jrimum.org/texgit</url>
 
@@ -44,6 +44,10 @@
 			<name>Rômulo Augusto</name>
 			<email>romulomail@gmail.com</email>
 		</developer>
+		<developer>
+			<name>Bruno Augusto</name>
+			<email>brunoaugustosilva8@gmail.com</email>
+		</developer>
 	</developers>
 
 	<properties>
@@ -58,18 +62,18 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>animal-sniffer-maven-plugin</artifactId>
-				<version>1.6</version>
+				<version>1.23</version>
 				<configuration>
 					<signature>
 						<groupId>org.codehaus.mojo.signature</groupId>
-						<artifactId>java15</artifactId>
+						<artifactId>java18</artifactId>
 						<version>1.0</version>
 					</signature>
 				</configuration>
@@ -162,17 +166,17 @@
 		<dependency>
 			<groupId>org.jrimum</groupId>
 			<artifactId>jrimum-utilix</artifactId>
-			<version>0.2.4</version>
+			<version>0.2.5</version>
 		</dependency>
 		<dependency>
-			<groupId>sun-jaxb</groupId>
+			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
-			<version>2.2</version>
+			<version>2.2.12</version>
 		</dependency>
 		<dependency>
-			<groupId>sun-jaxb</groupId>
+			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
-			<version>2.2</version>
+			<version>2.2.11</version>
 		</dependency>
 		<!-- Test -->
 		<dependency>

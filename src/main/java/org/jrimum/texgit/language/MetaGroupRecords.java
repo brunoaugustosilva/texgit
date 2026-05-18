@@ -83,7 +83,7 @@ public class MetaGroupRecords {
 	 * Objects of the following type(s) are allowed in the list
 	 * {@link MetaRecord }
 	 * 
-	 * 
+	 * @return Lista de instruções
 	 */
 	public List<MetaRecord> getRecords() {
 		if (records == null) {
