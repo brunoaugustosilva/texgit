@@ -16,8 +16,8 @@ public interface Filler extends Serializable{
 	 * no lado esquerdo até que o campo fique com o tamanho que foi definido.
 	 * </p>
 	 * 
-	 * @param toFill
-	 * @param length
+	 * @param toFill String a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @since 0.2
@@ -28,8 +28,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill String a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -42,8 +42,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -56,8 +56,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -70,8 +70,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -84,8 +84,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -98,8 +98,8 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -112,13 +112,13 @@ public interface Filler extends Serializable{
 	 * Executa o método <code>fill(String, int)</code> passando o parâmetro
 	 * <code>toFill</code> como <code>String.valueOf(toFill)</code>.
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
 	 * 
-	 * @since
+	 * @since 0.2
 	 */
 	String fill(float tofill, int length);
 
@@ -131,8 +131,8 @@ public interface Filler extends Serializable{
 	 * <code>fill(String, int)</code> receberá uma String nula como parâmetro.
 	 * </p>
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)
@@ -150,8 +150,8 @@ public interface Filler extends Serializable{
 	 * <code>fill(String, int)</code> receberá uma String nula como parâmetro.
 	 * </p>
 	 * 
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * 
 	 * @see Filler#fill(String, int)

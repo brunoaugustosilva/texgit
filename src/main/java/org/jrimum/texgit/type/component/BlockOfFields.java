@@ -76,8 +76,8 @@ public class BlockOfFields extends AbstractStringOfFields<FixedField<?>> impleme
 	}
 
 	/**
-	 * @param length
-	 * @param size
+	 * @param length Tamanho do bloco
+	 * @param size Número de fields do bloco
 	 */
 	public BlockOfFields(Integer length, Integer size) {
 

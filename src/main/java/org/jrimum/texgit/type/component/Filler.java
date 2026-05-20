@@ -79,7 +79,8 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param fillWith
+	 * @param fillWith Objeto a ser utilizado como preenchimento
+	 * O lado de preenchimento será o lado esquerdo.
 	 */
 	public Filler(G fillWith) {
 		
@@ -88,8 +89,8 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param fillWith
-	 * @param sideToFill
+	 * @param fillWith Objeto a ser utilizado como preenchimento
+	 * @param sideToFill Lado de preenchimento
 	 */
 	public Filler(G fillWith, Side sideToFill) {
 		
@@ -98,14 +99,17 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#getPadding()
+	 * @see org.jrimum.texgit.type.Filler
+	 * @return Objeto a ser utilizado como preenchimento
 	 */
 	public G getPadding() {
 		return padding;
 	}
 
 	/**
-	 * @see org.jrimum.texgit.type#setPadding(G)
+	 * @see org.jrimum.texgit.type.Filler
+	 * @param fillWith Objeto a ser utilizado como preenchimento
+	 * @throws IllegalArgumentException se o objeto de preenchimento for nulo
 	 */
 	public void setPadding(G fillWith) {
 		
@@ -117,14 +121,17 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @see org.jrimum.texgit.type#getSideToFill()
+	 * @see org.jrimum.texgit.type.Filler
+	 * @return Lado de preenchimento
 	 */
 	public Side getSideToFill() {
 		return sideToFill;
 	}
 
 	/**
-	 * @see org.jrimum.texgit.type#setSideToFill(org.jrimum.texgit.type.component.Side)
+	 * @see org.jrimum.texgit.type.Filler
+	 * @param sideToFill Lado de preenchimento
+	 * @throws IllegalArgumentException se o lado de preenchimento for nulo
 	 */
 	public void setSideToFill(Side sideToFill) {
 		
@@ -136,7 +143,7 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(java.lang.String, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(String toFill, int length){
 		
@@ -157,56 +164,56 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(long, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(long tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(int, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(int tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(short, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(short tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(byte, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(byte tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(char, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(char tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(double, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(double tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(float, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(float tofill, int length){
 		return fill(String.valueOf(tofill), length);
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(java.lang.Object, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(Object tofill, int length){
 		
@@ -220,7 +227,7 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @see org.jrimum.texgit.type#fill(org.jrimum.texgit.TextStream, int)
+	 * @see org.jrimum.texgit.type.Filler
 	 */
 	public String fill(TextStream tofill, int length){
 
@@ -234,8 +241,8 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @param toFill
-	 * @param length
+	 * @param toFill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 */
 	private String fillRight(String toFill, int length) {
@@ -244,8 +251,8 @@ public class Filler<G> implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param toFill
-	 * @param length
+	 * @param toFill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 */
 	private String fillLeft(String toFill, int length) {

@@ -48,7 +48,7 @@ import org.jrimum.utilix.Objects;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Tipo do field contido na StringOfFields
  */
 @SuppressWarnings("serial")
 public class Field<G> implements org.jrimum.texgit.type.Field<G>{
@@ -89,7 +89,7 @@ public class Field<G> implements org.jrimum.texgit.type.Field<G>{
 	}
 
 	/**
-	 * @param value
+	 * @param value Valor do campo
 	 */
 	public Field(G value) {
 		super();
@@ -102,8 +102,8 @@ public class Field<G> implements org.jrimum.texgit.type.Field<G>{
 	 * será de acordo com o formatador.
 	 * </p>
 	 * 
-	 * @param value
-	 * @param formatter
+	 * @param value Valor do campo
+	 * @param formatter Formatador utilizado na leitura e escrita do valor do campo
 	 */
 	public Field(G value, Format formatter){
 		
@@ -112,8 +112,8 @@ public class Field<G> implements org.jrimum.texgit.type.Field<G>{
 	}
 
 	/**
-	 * @param name
-	 * @param value
+	 * @param name Nome do campo
+	 * @param value Valor do campo
 	 */
 	public Field(String name, G value) {
 		super();
@@ -127,9 +127,9 @@ public class Field<G> implements org.jrimum.texgit.type.Field<G>{
 	 * Cria um <code>Field</code> com nome para identificação, valor e um formatador.
 	 * </p>
 	 * 
-	 * @param name
-	 * @param value
-	 * @param formatter
+	 * @param name Nome do campo
+	 * @param value Valor do campo
+	 * @param formatter Formatador utilizado na leitura e escrita do valor do campo
 	 * 
 	 * @see #Field(Object, Format)
 	 */

@@ -35,7 +35,7 @@ import org.jrimum.texgit.TextStream;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Tipo do field contido na StringOfFields
  */
 public interface Field<G> extends TextStream, Cloneable{
 

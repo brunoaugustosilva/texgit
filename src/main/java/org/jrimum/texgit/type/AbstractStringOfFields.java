@@ -44,7 +44,7 @@ import org.jrimum.utilix.Objects;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Tipo do field contido na StringOfFields
  */
 @SuppressWarnings("serial")
 public abstract class AbstractStringOfFields<G extends Field<?>> implements TextStream, List<G>, Cloneable{
@@ -63,6 +63,7 @@ public abstract class AbstractStringOfFields<G extends Field<?>> implements Text
 	}
 	
 	/**
+	 * @param size Quantidade de fields que a StringOfFields deve conter. Deve ser um número natural &gt; 0.
 	 * 
 	 */
 	public AbstractStringOfFields(Integer size) {

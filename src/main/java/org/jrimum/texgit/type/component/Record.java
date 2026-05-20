@@ -71,8 +71,8 @@ public class Record extends BlockOfFields implements org.jrimum.texgit.Record{
 	}
 	
 	/**
-	 * @param length 
-	 * @param size Tamanho
+	 * @param length Tamanho do registro
+	 * @param size Quantidade de fields que o registro deve conter. Deve ser um número natural &gt; 0.
 	 */
 	public Record(Integer length, Integer size) {
 		super(length, size);

@@ -46,7 +46,7 @@ public interface Fixed {
 	 * 
 	 * @return Indicativo se está de acordo com o definido
 	 * 
-	 * @throws IllegalStateException
+	 * @throws IllegalStateException se a medida não estiver de acordo com o definidos
 	 */
 	public abstract boolean isFixedAsDefined() throws IllegalStateException;
 }

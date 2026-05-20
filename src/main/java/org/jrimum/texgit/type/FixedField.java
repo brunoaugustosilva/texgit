@@ -32,7 +32,7 @@ package org.jrimum.texgit.type;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Tipo do field contido na StringOfFields
  */
 public interface FixedField<G> extends Field<G>, FixedLength{
 

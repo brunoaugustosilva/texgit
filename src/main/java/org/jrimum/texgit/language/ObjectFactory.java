@@ -169,6 +169,8 @@ public class ObjectFactory {
 
 	/**
 	 * Create an instance of {@link MetaGroupFields.SequencialNumber }}
+	 * @param value Objeto do MetaOrderedField
+	 * @return MetaGroupFields.SequencialNumber	
 	 * 
 	 */
 	@XmlElementDecl(namespace = "", name = "SequencialNumber", scope = MetaGroupFields.class)
@@ -179,6 +181,8 @@ public class ObjectFactory {
 
 	/**
 	 * Create an instance of {@link MetaGroupFields.IdType }}
+	 * @param value Objeto do MetaOrderedField
+	 * @return MetaGroupFields.IdType	
 	 * 
 	 */
 	@XmlElementDecl(namespace = "", name = "IdType", scope = MetaGroupFields.class)

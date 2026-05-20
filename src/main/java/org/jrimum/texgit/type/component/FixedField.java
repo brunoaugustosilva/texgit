@@ -41,7 +41,7 @@ import org.jrimum.utilix.Objects;
 /**
  * @author <a href="http://gilmatryx.googlepages.com/">Gilmar P.S.L.</a>
  *
- * @param <G>
+ * @param <G> Tipo do field contido na StringOfFields
  */
 @SuppressWarnings("serial")
 public class FixedField<G> extends Field<G> implements org.jrimum.texgit.type.FixedField<G>{

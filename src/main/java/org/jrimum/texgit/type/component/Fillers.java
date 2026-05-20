@@ -65,8 +65,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 	
 	/**
-	 * @param toFill
-	 * @param length
+	 * @param toFill String a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(java.lang.String, int)
 	 */
@@ -75,8 +75,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(long, int)
 	 */
@@ -85,8 +85,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(int, int)
 	 */
@@ -95,8 +95,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(short, int)
 	 */
@@ -105,8 +105,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(byte, int)
 	 */
@@ -115,8 +115,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(char, int)
 	 */
@@ -125,8 +125,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill string a ser preenchida
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(double, int)
 	 */
@@ -145,8 +145,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill Objeto a ser preenchido
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(java.lang.Object, int)
 	 */
@@ -155,8 +155,8 @@ public enum Fillers implements org.jrimum.texgit.type.Filler{
 	}
 
 	/**
-	 * @param tofill
-	 * @param length
+	 * @param tofill TextStream a ser preenchido
+	 * @param length Tamanho desejado da string preenchida
 	 * @return String preenchida
 	 * @see org.jrimum.texgit.type.component.Filler#fill(org.jrimum.texgit.TextStream, int)
 	 */
