@@ -16,8 +16,8 @@
 			<excludes>
 				<exclude>org.apache.commons:commons-lang3</exclude>
 				<exclude>log4j:log4j</exclude>
-				<exclude>javax.xml.bind:jaxb-api</exclude>
-				<exclude>com.sun.xml.bind:jaxb-impl</exclude>
+				<exclude>sun-jaxb:jaxb-api</exclude>
+				<exclude>sun-jaxb:jaxb-impl</exclude>
 			</excludes>
 		</dependencySet>
 	</dependencySets>
